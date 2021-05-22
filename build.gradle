@@ -1,0 +1,38 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        google()  // Google's Maven repository
+        jcenter()
+        mavenCentral()
+
+        if (project.hasProperty('local.repo'))
+        {
+            maven { name 'glide-local'; url project.property('local.repo') }
+        }
+        maven { name 'glide-snapshot'; url 'http://oss.sonatype.org/content/repositories/snapshots' }
+        flatDir name: 'libs', dirs: 'libs'
+        maven
+        {
+            //url "https://jitpack.io"
+            url "https://maven.google.com"
+        }
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:4.0.1"
+        classpath 'com.google.gms:google-services:4.3.3'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()  // Google's Maven repository
+        jcenter()
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "605650564488",
+    "firebase_url": "https://cloudmessagingapp-addda.firebaseio.com",
+    "project_id": "cloudmessagingapp-addda",
+    "storage_bucket": "cloudmessagingapp-addda.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605650564488:android:95a6d38b9a909638c6b63d",
+        "android_client_info": {
+          "package_name": "com.example.cloudmessagingappg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605650564488-bdag08locir7obkad8fhoc0q4pheg4m8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCMBaoVb6gbr2syT8QQcaYky9zIJPrhpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605650564488-bdag08locir7obkad8fhoc0q4pheg4m8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
